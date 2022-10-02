@@ -1,0 +1,234 @@
+<html lang="">
+    <head>
+        <title>My Portfolio</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <header>
+            <nav class="px-2 bg-blue-900 py-2">
+                <div class="flex flex-wrap justify-center sm:justify-between">
+                    <div>
+                        <a class="flex items-center">
+                            <img src="./assets/img/logo.jpg" class="mr-2 shadow rounded-full max-w-full h-8 align-middle border-none">
+                            <span class="self-center font-bold text-white">Mochammad Naufal Rizki</span>
+                        </a>
+                    </div>
+                    <div>
+                        <ul class="flex flex-auto self-center">
+                            <li class="hover:bg-blue-200 hover:rounded-full"><a href="#personal-statement" class="block py-1 mx-2 font-semibold text-white">Personal</a></li>
+                            <li class="hover:bg-blue-200 hover:rounded-full"><a href="#education" class="block py-1 mx-2 font-semibold text-white">Education</a></li>
+                            <li class="hover:bg-blue-200 hover:rounded-full"><a href="#portfolio" class="block py-1 mx-2 font-semibold text-white">Portfolio</a></li>
+                            <li class="hover:bg-blue-200 hover:rounded-full"><a href="#contact" class="block py-1 mx-2 font-semibold text-white">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="personal-statement" class="bg-gradient-to-r from-cyan-500 to-blue-500">
+                <div class="mx-20 py-20">
+                    <div class="border items-center border shadow-md rounded-lg bg-white">
+                        <div class="flex flex-col lg:flex-row justify-start mx-20 my-20">
+                            <div class="lg:mr-20 sm:items-center my-5">
+                                <img src="./assets/img/my-picture.jpg" class="w-60 lg:w-72 block my-0 mx-auto" width="300px" height="200px">
+                            </div>
+                            <div class="self-center my-5">
+                                <h1 class="text-4xl font-bold mb-2">Hallo, Saya Mochammad Naufal Rizki</h1>
+                                <p class="text-base mt-2 text-justify">Saya adalah mahasiswa semester 7 dari program studi Sistem Informasi yang sangat tertarik di dunia Software Engineering terutama pada Backend Engineering.
+                                    Bahasa pemrograman yang saya sukai adalah Java.
+                                    Saya juga gemar membuat website sederhana dengan menggunakan framwork Django (Python) dan Springboot (Java).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="education" class="bg-gradient-to-r from-blue-500 via-indigo-500 to-violet-500">
+                <div class="mx-20 py-20">
+                    <h1 class="text-4xl font-bold mb-2 text-slate-100">Latar Belakang Sekolah</h1>
+                    <div class="flex flex-col my-4">
+                        <div class="flex lg:flex-row flex-col lg:items-center rounded-lg border shadow-md my-4 bg-white">
+                            <img src="https://asset.kompas.com/crops/fjQHnBZ_U9OJTPLXZIzq5GStytU=/0x75:862x649/750x500/data/photo/2020/08/17/5f39cddfce7ed.jpeg"
+                                 class="object-cover w-full lg:w-80 h-52 rounded-t-lg" width="400" height="300"/>
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Universitas Indonesia</h2>
+                                <p class="text-base mt-2">2019 - Sekarang</p>
+                                <p class="text-base mt-2">Sistem Informasi</p>
+                                <p class="text-base mt-2">Depok, Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="flex lg:flex-row flex-col  lg:items-center rounded-lg border shadow-md my-4 bg-white">
+                            <img src="https://scontent-sin6-4.xx.fbcdn.net/v/t1.18169-9/11041640_957159454334285_3198523224116008823_n.jpg?stp=cp0_dst-jpg_e15_q65_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=dd9801&_nc_ohc=B0Xrfe0fGqoAX8ljiN1&_nc_ht=scontent-sin6-4.xx&oh=00_AT-nQRCLTIIREIgxQHFgXXpzEg64AFNBxVQZRJiT7xT46A&oe=635416D5"
+                                 class="object-cover w-full lg:w-80 h-52 rounded-t-lg" width="400" height="300"/>
+                            <div class="flex flex-col justify-between p-6 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">SMAN 1 Kota Sukabumi</h2>
+                                <p class="text-base mt-2">2016 - 2019</p>
+                                <p class="text-base mt-2">Ilmu Pengetahuan Alam</p>
+                                <p class="text-base mt-2">Sukabumi, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio" class="bg-gradient-to-r from-violet-500 via-fuchsia-500 to-rose-500">
+                <div class="mx-20 py-20">
+                    <h1 class="text-4xl font-bold mb-2 text-slate-100">Portfolio</h1>
+                    <div class="justify-items-center grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 my-8">
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-1.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Si-Office</h2>
+                                <p class="text-base mt-2 text-justify">Si-Office merupakan sebuah website Sistem Informasi yang
+                                    berfokus membantu PT Orchid Griya Nutrisi dalam mengurus administrasi perusahaan</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-2.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">SI-Factory</h2>
+                                <p class="text-base mt-2 text-justify">SI-Factory merupakan website Sistem Informasi yang dikembangkan
+                                untuk memenuhi tugas akhir dari mata kuliah Arsitektur Pemrograman Aplikasi Perusahaan</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-3.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">HelthLab</h2>
+                                <p class="text-base mt-2 text-justify">Helathlab merupakan website kesehatan yang dikembangkan untuk memenuhi tugas akhir dari mata kuliah
+                                Pemrograman Berbasis Platform</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-4.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Siruco</h2>
+                                <p class="text-base mt-2 text-justify">Siruco merupakan website yang dikembangkan untuk memenuhi
+                                tugas akhir dari mata kuliah Basis Data</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-5.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Entah Apa</h2>
+                                <p class="text-base mt-2 text-justify">Website ini dikembangkan untuk pengerjaan tugas individu dari
+                                    mata kuliah Pemrograman Berbasis Platform</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-6.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Ruangguru CAMP LMS</h2>
+                                <p class="text-base mt-2 text-justify">Ruangguru CAMP LMS merupakan webiste yang dikembangkan
+                                untuk kebutuhan pembelajaran bagi Campers</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-7.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Neurons</h2>
+                                <p class="text-base mt-2 text-justify">Neurons merupakan website yang dikembangkan untuk
+                                    kebutuhan pembelajaran bagi Campers terutama pada materi yang berhubungan dengan pemrograman</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-8.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Tailwind</h2>
+                                <p class="text-base mt-2 text-justify">Tailwind merupakan website yang berisi dokumentasi penggunaan framework
+                                CSS yang bermanfaat bagi tim developer</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-9.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Bootstrap</h2>
+                                <p class="text-base mt-2">Bootstrap merupakan website yang berisi dokumentasi penggunaan framework
+                                    CSS yang bermanfaat bagi tim developer</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-10.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Gitlab</h2>
+                                <p class="text-base mt-2">Gitlab merupakan sebuah website untuk berkolaborasi para developer
+                                dalam mengembangkan sebuah sistem</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-11.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Github</h2>
+                                <p class="text-base mt-2">Github merupakan sebuah website untuk berkolaborasi para developer
+                                    dalam mengembangkan sebuah sistem</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-72 rounded-lg border shadow-md bg-white">
+                            <img class="object-cover w-full rounded-t-lg" src="./assets/img/port-12.png" />
+                            <div class="flex flex-col justify-between p-4 leading-normal">
+                                <h2 class="text-2xl font-semibold mb-2">Netlify</h2>
+                                <p class="text-base mt-2">Netlify merupakan website PaaS yang menyediakan layanan hosting
+                                    gratis untuk static website dengan kemudahan proses build and deploy serta memiliki
+                                    berbagai fitur yang menarik. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-blue-900" id="contact">
+            <div class="mx-20 py-20">
+                <h1 class="text-4xl font-bold mb-2 text-slate-100">Contact Me</h1>
+                <div class="my-8">
+                    <div class="border items-center border shadow-md rounded-lg bg-white">
+                        <div class="my-10 mx-10">
+                            <form>
+                                <div class="my-2">
+                                    <label class="block font-semibold my-1" for="name">Nama</label>
+                                    <input type="text" id="name" class="form-control w-full border shadow-md h-10 rounded-lg my-1 px-2" placeholder="Masukkan nama anda">
+                                </div>
+                                <div class="my-2">
+                                    <label class="block font-semibold my-1" for="email">Email</label>
+                                    <input type="email" id="email" class="form-control w-full border shadow-md h-10 rounded-lg my-1 px-2" placeholder="Masukkan email anda">
+                                </div>
+                                <div class="my-2">
+                                    <label class="block font-semibold my-1" for="description">Deskripsi</label>
+                                    <textarea id="description" class="form-control w-full border shadow-md h-10 rounded-lg my-1 px-2" placeholder=Deskripsi"></textarea>
+                                </div>
+                                <div class="justify-items-center my-2 flex">
+                                    <button type="submit" class="border shadow rounded-lg py-2 px-2 bg-blue-900 hover:bg-blue-500 text-white font-bold w-20">Simpan</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center my-10">
+                    <div>
+                        <div class="flex items-center mx-2">
+                            <img src="https://www.freeiconspng.com/uploads/linkedin-logo-3.png" class="mr-2 shadow max-w-full h-8 align-middle border-none">
+                            <a href="www.linkedin.com/in/naufal-rizki"><span class="self-center font-normal text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r
+                            hover:from-cyan-500 hover:to-blue-500">naufal_rizki</span></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center mx-2">
+                            <img src="https://www.freeiconspng.com/uploads/--in-blow-to-crafty-brand-odes-instagram-adopts-minimalist-new-logo-16.jpg" class="mr-2 shadow rounded-full max-w-full h-8 align-middle border-none">
+                            <a href="https://www.instagram.com/naufal_rizki/"><span class="self-center text-white
+                            hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r
+                            hover:from-cyan-500 hover:to-blue-500">naufal_rizki</span></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center mx-2">
+                            <img src="https://www.freeiconspng.com/uploads/github-logo-icon-2.png" class="mr-2 shadow rounded-full max-w-full h-8 align-middle border-none">
+                            <a href="https://github.com/nerocldproject"><span class="self-center text-white
+                            hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r
+                            hover:from-cyan-500 hover:to-blue-500">NeroCldProject</span></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center text-base text-white">Tugas Final Assignment Basic FE Web Development 2022</p>
+            </div>
+        </footer>
+    </body>
+</html>
